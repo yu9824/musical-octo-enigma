@@ -1,4 +1,3 @@
-# ruff : noqa : F401
 """utils module"""
 
 from ._utils import dummy_func, is_installed
