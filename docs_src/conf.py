@@ -6,6 +6,10 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
+import sys
+
+sys.path.insert(0, "../src")
+
 from template import __author__, __version__
 
 project = "template"
